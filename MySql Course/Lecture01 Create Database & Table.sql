@@ -1,11 +1,14 @@
-create database afnan;
-use afnan;
-create table info(
-id int ,
-name varchar(250)
+--  for create database 
+create database apt;
+use apt;
+
+-- for create table
+create table  info (
+
+Serial_Number int auto_increment  primary key not null, 
+Name varchar(250),
+Age int , 
+Contact Varchar(250)
 
 );
-
-
-select * from info
 
